@@ -1,0 +1,112 @@
+[
+	{
+		"id": 1,
+		"firstName": "John",
+		"secondName": "Doe",
+		"phoneNumber": "+9-999-999-99-99",
+		"email": "test@mail.com",
+		"password": "$2a$10$CgV0DGbqjpuQdotu86N3Mu70Nyljm2MSyraKnld6Ca07FuKqyt1BC",
+		"sale": 0.1,
+		"orders": [
+			{
+				"id": 1,
+				"date": "2019-01-01",
+				"total": 100,
+				"products": [
+					{
+						"id": 1,
+						"name": "Product 1",
+						"price": 100,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"id": 2,
+				"date": "2019-01-01",
+				"total": 100,
+				"products": [
+					{
+						"id": 1,
+						"name": "Product 1",
+						"price": 100,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"id": 3,
+				"date": "2019-01-01",
+				"total": 100,
+				"products": [
+					{
+						"id": 1,
+						"name": "Product 1",
+						"price": 100,
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"deliveryAddress": {
+			"phoneNumber": "+9-999-999-99-99",
+			"locality": "Moscow",
+			"street": "Lenina street",
+			"building": "12",
+			"floor": "4",
+			"apartment": "45",
+			"intercomCode": "777-777",
+			"comment": "First order from this shop"
+		}
+	},
+	{
+		"id": 2,
+		"firstName": "Jane",
+		"secondName": "Doe",
+		"phoneNumber": "1234567890",
+		"email": "test@mail.com",
+		"password": "64655296525",
+		"sale": 0.2,
+		"orders": [
+			{
+				"id": 2,
+				"date": "2019-01-01",
+				"total": 100,
+				"products": [
+					{
+						"id": 1,
+						"name": "Product 1",
+						"price": 100,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"id": 3,
+				"date": "2019-01-01",
+				"total": 100,
+				"products": [
+					{
+						"id": 1,
+						"name": "Product 1",
+						"price": 100,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"id": 4,
+				"date": "2019-01-01",
+				"total": 100,
+				"products": [
+					{
+						"id": 1,
+						"name": "Product 1",
+						"price": 100,
+						"quantity": 1
+					}
+				]
+			}
+		]
+	}
+]

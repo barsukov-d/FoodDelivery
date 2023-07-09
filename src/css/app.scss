@@ -1,0 +1,76 @@
+:root {
+	--q-primary: #26a69a;
+	--q-secondary: #1976d2;
+	--q-accent: #9C27B0;
+	--q-dark: #1D1D1D;
+	--q-dark-page: #121212;
+	--q-positive: #888888;
+	--q-negative: #C10015;
+	--q-info: #31CCEC;
+	--q-warning: #F2C037;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.d-none {
+		@apply hidden;
+	}
+
+	// .border-card {
+	// 	@apply border-2 border-red-500 border-r-2;
+	// }
+
+}
+
+@layer components {
+	.ui-button {
+		@apply rounded-full;
+	}
+
+	.q-page-container {
+		@apply px-3;
+	}
+
+	// .d-none {
+	// 	@apply hidden;
+	// }
+}
+
+
+
+.q-expansion-item__content.relative-position {
+	padding: 20px 0px;
+}
+
+body {
+	font-family: Nunito;
+}
+
+@font-face {
+	font-family: Nunito;
+	src: url(./fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+	font-family: Nunito;
+	src: url(./fonts/Nunito-Bold.ttf);
+	font-weight: bold;
+}
+
+// custom banner slider pagination
+
+// .actions-banners .swiper-pagination-bullet {
+// 	transition: all 0.3s ease;
+// 	background: #301e03;
+// 	opacity: 0.7;
+// }
+
+// .actions-banners .swiper-pagination-bullet.swiper-pagination-bullet-active {
+// 	width: 20px;
+// 	border-radius: 6px;
+// 	background: #301e03;
+// 	opacity: 1;
+// }

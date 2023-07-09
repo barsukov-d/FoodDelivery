@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"alias": "hot-dishes",
+		"title": "Горячие блюда",
+		"image": "hot-dishes.jpg"
+	},
+	{
+		"id": 2,
+		"alias": "drinks",
+		"title": "Напитки",
+		"image": "drinks.jpg"
+	},
+	{
+		"id": 3,
+		"alias": "desserts",
+		"title": "Десерты",
+		"image": "desserts.jpg"
+	},
+	{
+		"id": 4,
+		"alias": "beverages",
+		"title": "Напитки 2",
+		"image": "beverages.jpg"
+	},
+	{
+		"id": 5,
+		"alias": "pizzas",
+		"title": "Пицца",
+		"image": "pizzas.jpg"
+	},
+	{
+		"id": 6,
+		"alias": "pasta",
+		"title": "Паста",
+		"image": "pasta.jpg"
+	},
+	{
+		"id": 7,
+		"alias": "salads",
+		"title": "Салаты",
+		"image": "salads.jpg"
+	},
+	{
+		"id": 8,
+		"alias": "soups",
+		"title": "Супы",
+		"image": "soups.jpg"
+	},
+	{
+		"id": 9,
+		"alias": "sandwiches",
+		"title": "Сэндвичи",
+		"image": "sandwiches.jpg"
+	},
+	{
+		"id": 10,
+		"alias": "sushi",
+		"title": "Суши",
+		"image": "sushi.jpg"
+	}
+]

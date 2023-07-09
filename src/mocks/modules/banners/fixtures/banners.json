@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"name": "Акция 1",
+		"text": "Текст акции 1",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 2,
+		"name": "Акция 2",
+		"text": "Текст акции 2",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 3,
+		"name": "Акция 3",
+		"text": "Текст акции 3",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 4,
+		"name": "Акция 4",
+		"text": "Текст акции 4",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 5,
+		"name": "Акция 5",
+		"text": "Текст акции 5",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 6,
+		"name": "Акция 6",
+		"text": "Текст акции 6",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 7,
+		"name": "Акция 7",
+		"text": "Текст акции 7",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 8,
+		"name": "Акция 8",
+		"text": "Текст акции 8",
+		"image": "https://placeimg.com/300/170/nature"
+	},
+	{
+		"id": 9,
+		"name": "Акция 9",
+		"text": "Текст акции 9",
+		"image": "https://placeimg.com/300/170/nature"
+	}
+]

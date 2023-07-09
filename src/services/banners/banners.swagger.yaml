@@ -1,0 +1,45 @@
+openapi: 3.0.3
+info:
+    title: Vendors API
+    description: Vendors API
+    version: 1.0.0
+
+paths:
+    /api/banners:
+        post:
+            tags:
+                - ListBanners
+            summary: Banners list
+            responses:
+                200:
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: '#/components/schemas/BannerItem'
+                401:
+                    description: Unauthorized
+                500:
+                    description: Internal server error
+
+components:
+    schemas:
+        BannerItem:
+            type: object
+            required:
+                - id
+                - name
+                - image
+            properties:
+                id:
+                    type: integer
+                name:
+                    example: 'New'
+                    type: string
+                image:
+                    example: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
+                    type: string
+                text:
+                    type: string

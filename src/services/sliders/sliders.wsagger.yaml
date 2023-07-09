@@ -1,0 +1,67 @@
+openapi: 3.0.3
+info:
+    title: Vendors API
+    description: Vendors API
+    version: 1.0.0
+
+paths:
+    /api/sliders:
+        post:
+            tags:
+                - ListSliders
+            summary: Sliders list
+            responses:
+                200:
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: '#/components/schemas/SliderItem'
+                401:
+                    description: Unauthorized
+                500:
+                    description: Internal server error
+    /api/slider{slider_id}:
+        get:
+            tags:
+                - Product
+            summary: Slider
+            parameters:
+                - in: path
+                  name: slider_id
+                  required: true
+                  schema:
+                      type: integer
+            responses:
+                200:
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/SliderItem'
+                401:
+                    description: Unauthorized
+                500:
+                    description: Internal server error
+
+components:
+    schemas:
+        SliderItem:
+            type: object
+            required:
+                - id
+                - title
+                - type
+            properties:
+                id:
+                    type: integer
+                title:
+                    example: 'New'
+                    type: string
+                type:
+                    type: string
+                    enum:
+                        - product
+                        - banner

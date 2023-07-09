@@ -1,0 +1,67 @@
+[
+	{
+		"id": 0,
+		"title": "Акции",
+		"type": "banner"
+	},
+	{
+		"id": 1,
+		"title": "Hits",
+		"type": "product",
+		"category_id": 0
+	},
+	{
+		"id": 2,
+		"title": "New",
+		"type": "product",
+		"category_id": 1
+	},
+	{
+		"id": 3,
+		"title": "Reccomended",
+		"type": "product",
+		"category_id": 2
+	},
+	{
+		"id": 4,
+		"title": "Hot Dishes",
+		"type": "product",
+		"category_id": 3
+	},
+	{
+		"id": 5,
+		"title": "Drinks",
+		"type": "product",
+		"category_id": 4
+	},
+	{
+		"id": 6,
+		"title": "Desserts",
+		"type": "product",
+		"category_id": 5
+	},
+	{
+		"id": 7,
+		"title": "Beverages",
+		"type": "product",
+		"category_id": 6
+	},
+	{
+		"id": 8,
+		"title": "Burgers",
+		"type": "product",
+		"category_id": 7
+	},
+	{
+		"id": 9,
+		"title": "Pizzas",
+		"type": "product",
+		"category_id": 8
+	},
+	{
+		"id": 10,
+		"title": "Pasta",
+		"type": "product",
+		"category_id": 9
+	}
+]

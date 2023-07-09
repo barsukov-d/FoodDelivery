@@ -1,0 +1,245 @@
+openapi: 3.0.3
+info:
+    title: Vendors API
+    description: Vendors API
+    version: 1.0.0
+
+paths:
+    /api/userRegistration:
+        post:
+            tags:
+                - userRegistration
+            summary: Регистрация пользователя
+            requestBody:
+                required: true
+                content:
+                    application/x-www-form-urlencoded:
+                        schema:
+                            type: object
+                            properties:
+                                firstName: # <!--- form field name
+                                    type: string
+                                secondName: # <!--- form field name
+                                    type: string
+                                phoneNumber: # <!--- form field name
+                                    type: string
+                                email: # <!--- form field name
+                                    type: string
+                                password: # <!--- form field name
+                                    type: string
+                            required:
+                                - firstName
+                                - secondName
+                                - phoneNumber
+                                - password
+
+            responses:
+                200:
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/registrationSuccess'
+                401:
+                    description: Unauthorized
+                500:
+                    description: Internal server error
+
+    /api/userLogin:
+        post:
+            tags:
+                - userLogin
+            summary: Авторизация пользователя
+            requestBody:
+                required: true
+                content:
+                    application/x-www-form-urlencoded:
+                        schema:
+                            type: object
+                            properties:
+                                numberPhone: # <!--- form field name
+                                    type: string
+                                password: # <!--- form field name
+                                    type: integer
+                            required:
+                                - numberPhone
+                                - password
+
+            responses:
+                200:
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/LoginSuccess'
+                401:
+                    description: Unauthorized
+                500:
+                    description: Internal server error
+
+components:
+    schemas:
+        UserItem:
+            type: object
+            required:
+                - id
+                - firstName
+                - secondName
+                - phone
+                - password
+            properties:
+                id:
+                    type: integer
+                firstName:
+                    example: 'Иван'
+                    type: string
+                secondName:
+                    example: 'Иванов'
+                    type: string
+                phone:
+                    example: '+7 (999) 999-99-99'
+                    type: string
+                email:
+                    example: 'example@mail.com'
+                    type: string
+                password:
+                    example: '123456'
+                    type: string
+                sale:
+                    example: '0.1'
+                    type: number
+                deliveryData:
+                    type: object
+                    properties:
+                        locality:
+                            example: 'Пекин'
+                            type: string
+                        street:
+                            example: 'Улица Пушкина'
+                            type: string
+                        building:
+                            example: 'Дом 5'
+                            type: string
+                        floor:
+                            example: 'Этаж 5'
+                            type: string
+                        apartment:
+                            example: 'Квартира 5'
+                            type: string
+                        intercomCode:
+                            example: 'Код 5253'
+                            type: string
+
+        DeliveryItem:
+            type: object
+            required:
+                - id
+                - locality
+                - street
+                - building
+            properties:
+                id:
+                    type: integer
+                locality:
+                    example: 'Пекин'
+                    type: string
+                street:
+                    example: 'Улица Пушкина'
+                    type: string
+                building:
+                    example: 'Дом 5'
+                    type: string
+                floor:
+                    example: 'Этаж 5'
+                    type: string
+                apartment:
+                    example: 'Квартира 5'
+                    type: string
+                intercomCode:
+                    example: 'Код 5253'
+                    type: string
+                comment:
+                    example: 'Комментарий'
+                    type: string
+
+        OrderItem:
+            type: object
+            required:
+                - id
+                - locality
+                - street
+                - building
+            properties:
+                id:
+                    type: integer
+                order_number:
+                    example: 236598
+                    type: number
+                payment_status:
+                    example: 'Ожидает оплаты, Оплачен, Отменён'
+                    type: string
+                    enum:
+                        - waiting payment
+                        - paid
+                        - canceled
+                order status:
+                    example: 'Готовится, Ожидает отгрузки, Доставляется, Завершён, Отменён'
+                    type: string
+                    enum:
+                        - cooking
+                        - waiting shipment
+                        - delivering
+                        - completed
+                        - canceled
+                type_of_shipping:
+                    example: 'самовывоз, доставка'
+                    type: string
+                    enum:
+                        - pickup
+                        - delivery
+                address:
+                    example: 'Пекин Улица Пушкина Дом 5 Этаж 5 Квартира 5'
+                    type: string
+                phone:
+                    example: '+79999999999'
+                    type: string
+                order_entry:
+                    example: 'Хинкали, Суп, Салат, Напиток'
+                    type: string
+                order_price:
+                    example: 1000
+                    type: number
+
+        registrationSuccess:
+            type: object
+            required:
+                - status
+                - message
+                - jwt
+            properties:
+                status:
+                    example: 0
+                    type: number
+                message:
+                    example: 'Пользователь успешно зарегистрирован'
+                    type: string
+                jwt:
+                    example:
+                    type: string
+
+        LoginSuccess:
+            type: object
+            required:
+                - status
+                - message
+                - jwt
+            properties:
+                status:
+                    example: 0
+                    type: number
+                message:
+                    example: 'Пользователь успешно авторизован'
+                    type: string
+                jwt:
+                    example:
+                    type: string

@@ -1,0 +1,34 @@
+{
+	"extends": "@quasar/app-vite/tsconfig-preset",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "esnext",
+		"useDefineForClassFields": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"lib": ["esnext", "dom"],
+		"types": [
+			"vite/client",
+			"vitest/globals",
+			"vite-plugin-pages/client",
+			"vite-plugin-vue-layouts/client",
+			"@intlify/vite-plugin-vue-i18n/client",
+			"@types/lodash"
+		],
+		"typeRoots": ["./node_modules/@types", "./src/types/"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+	"exclude": ["node_modules"],
+	"vueCompilerOptions": {
+		"plugins": ["@volar/vue-language-plugin-pug"]
+	}
+}
