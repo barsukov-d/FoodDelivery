@@ -36,6 +36,7 @@ const breakpoints = {
 	1280: {
 		slidesPerView: 7.2,
 	},
+
 };
 
 fetchProducts({ category_id: props.category.id });
