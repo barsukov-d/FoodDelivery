@@ -9,7 +9,7 @@ export default {
 	},
 
 	order: {
-		pageHeader: 'Корзина',
+		emptyList: 'Ваша корзина пуста',
 		formHeader: 'ОФОРМЛЕНИЕ ЗАКАЗА:',
 	},
 
@@ -37,5 +37,12 @@ export default {
 		price: 'р',
 		buy: 'Купить',
 		kcal: 'ккал',
+	},
+
+	headersName: {
+		home: 'Добро пожаловать',
+		dishes: 'Меню',
+		user: 'Личный кабинет',
+		cart: 'Корзина',
 	},
 };

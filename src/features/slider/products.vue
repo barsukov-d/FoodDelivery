@@ -26,6 +26,18 @@ const $w = useWait();
 const cartStore = useCartStore();
 const swiperModules = [Navigation, FreeMode];
 
+const breakpoints = {
+	768: {
+		slidesPerView: 3.2,
+	},
+	1024: {
+		slidesPerView: 5.2,
+	},
+	1280: {
+		slidesPerView: 7.2,
+	},
+};
+
 fetchProducts({ category_id: props.category.id });
 </script>
 
@@ -40,7 +52,8 @@ swiper.mt-4.border-primary(
 	:space-between='4',
 	:modules='swiperModules',
 	:pagination='{ clickable: true }',
-	:freeMode='true'
+	:freeMode='true',
+	:breakpoints='{ ...breakpoints }'
 )
 	template(v-if='$w.is(fetchProductsLoadingSymbol)')
 		SwiperSlide(v-for='(product, index) in 5', :key='index')

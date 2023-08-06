@@ -19,12 +19,11 @@ template(v-if='$w.is(fetchProductsLoadingSymbol)')
 	q-skeleton.h-400px
 
 template(v-else)
-	q-page
-		PageHeader(:header='products[0].name')
-		ProductCardSingle(
-			:product='products[0]',
-			:set-count='cartStore.getProductCount(products[0].id)',
-			@addProduct='cartStore.addProduct($event)',
-			@decProduct='cartStore.decProduct($event)'
-		)
+	//- PageHeader(:header='products[0].name')
+	ProductCardSingle.pt-8(
+		:product='products[0]',
+		:set-count='cartStore.getProductCount(products[0].id)',
+		@addProduct='cartStore.addProduct($event)',
+		@decProduct='cartStore.decProduct($event)'
+	)
 </template>

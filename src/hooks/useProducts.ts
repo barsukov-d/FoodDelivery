@@ -1,4 +1,4 @@
-import { productsService } from 'src/services/products';
+import { productsService } from 'src/services/products_eng';
 import type { IProduct, IProductCartID } from 'src/types/products';
 
 export const useProducts = () => {

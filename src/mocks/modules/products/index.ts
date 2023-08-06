@@ -16,12 +16,15 @@ export default async (
 	const API_URL = `${apiURL}/${serviceName}`;
 
 	await initModel(mockDB, serviceName, tables);
+	console.log('mockDB', mockDB);
 
 	const { fetchProducts, getProduct } = initCtrl(mockDB, serviceName, delay);
 
 	return [
 		rest.get(`${API_URL}`, fetchProducts),
 		rest.get(`${API_URL}/:id`, getProduct),
+		rest.get(`${API_URL}_eng`, fetchProducts),
+		rest.get(`${API_URL}_eng/:id`, getProduct),
 		// rest.post(API_URL),
 		// rest.put(API_URL),
 		// rest.delete(API_URL)
