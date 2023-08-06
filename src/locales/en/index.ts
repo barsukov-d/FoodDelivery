@@ -9,7 +9,7 @@ export default {
 	},
 
 	order: {
-		pageHeader: 'Cart',
+		emptyList: 'Your cart is empty',
 		formHeader: 'ORDERING:',
 	},
 
@@ -36,5 +36,12 @@ export default {
 		price: '$',
 		buy: 'Buy',
 		kcal: 'kcal',
+	},
+
+	headersName: {
+		home: 'Home',
+		dishes: 'Dishes',
+		user: 'User',
+		cart: 'Cart',
 	},
 };

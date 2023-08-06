@@ -8,7 +8,7 @@ import type { IProduct, IProductCartID } from 'src/types/products';
 import * as errors from './errors';
 export const productsServiceErrors = errors;
 
-const api = createApi(joinURL(<string>process.env.API_URL, 'products'));
+const api = createApi(joinURL(<string>process.env.API_URL, 'products_eng'));
 
 export const productsService = {
 	/**

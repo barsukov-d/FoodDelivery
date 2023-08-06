@@ -2,9 +2,11 @@
 import CartProductCard from 'src/entities/cart/product-card.vue';
 import { useCartStore } from 'stores/cart';
 import { useCartProductsList } from 'src/hooks/useCartProductsList';
+import { useI18n } from 'vue-i18n';
 
 const cartStore = useCartStore();
 const $q = useQuasar();
+const { t } = useI18n();
 
 const { productsList, fetchProductsList } = useCartProductsList();
 
@@ -57,7 +59,7 @@ template(v-if='productsList.length')
 			@addProduct='addProduct',
 			@decProduct='decProduct'
 		)
-h3.text-2xl.text-center(v-else) Корзина пуста
+h3.text-2xl.text-center(v-else) {{ t('order.emptyList') }}
 </template>
 
 <style>

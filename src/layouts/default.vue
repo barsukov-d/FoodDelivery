@@ -25,7 +25,7 @@ q-layout(view='hHh lpR fff')
 			:labelLang='langButtonLabel'
 		)
 	q-page-container.px-0.container.mx-auto
-		RouterView.px-1.mb-20(v-slot='{ Component }')
+		RouterView.px-1.pb-36(v-slot='{ Component }')
 			Suspense
 				component(:is='Component')
 	q-footer.bg-grey-8.text-white.d-none(class='sm:block', elevated)

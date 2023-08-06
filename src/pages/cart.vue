@@ -12,7 +12,7 @@ const cartStore = useCartStore();
 </script>
 <template lang="pug">
 q-page
-	PageHeader(:header='t("order.pageHeader")')
+	PageHeader(:header='t("headersName.cart")')
 	CartProductsList
 	CartTotalPrice(v-if='cartStore.productsCart.length > 0')
 	CartOrder(v-if='cartStore.productsCart.length > 0')

@@ -1,0 +1,24 @@
+[
+	{
+		"id": 1,
+		"category_id": 1,
+		"name": "Hot dishes 1",
+		"description": "Description of product",
+		"price": 400,
+		"image": "https://picsum.photos/300/300/?blur",
+		"weight": 100,
+		"baiges": ["popular", "hot"],
+		"kcal": 100
+	},
+	{
+		"id": 2,
+		"category_id": 1,
+		"name": "Hot dishes 2",
+		"description": "Description of product",
+		"price": 400,
+		"image": "https://picsum.photos/300/300/?blur",
+		"weight": 150,
+		"baiges": ["hot"],
+		"kcal": 100
+	}
+]
