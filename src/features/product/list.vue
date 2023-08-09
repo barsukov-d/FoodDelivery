@@ -24,12 +24,14 @@ template(v-if='$w.is(fetchProductsLoadingSymbol)')
 	q-skeleton.my-4.h-72(v-for='(product, index) in 5', :key='index')
 
 template(v-else)
-	ProductCardForMain.mx-auto.my-2.block(
-		v-for='product in products',
-		:key='product.id',
-		:product='product',
-		:set-count='cartStore.getProductCount(product.id)',
-		@count='cartStore.setProductCount(product.id, $event)',
-		@addProduct='cartStore.addProduct($event)'
-	)
+	.wrapp.mt-4.flex
+		ProductCardForMain.mx-auto.my-2.block.w-40(
+			class='md:w-80',
+			v-for='product in products',
+			:key='product.id',
+			:product='product',
+			:set-count='cartStore.getProductCount(product.id)',
+			@count='cartStore.setProductCount(product.id, $event)',
+			@addProduct='cartStore.addProduct($event)'
+		)
 </template>

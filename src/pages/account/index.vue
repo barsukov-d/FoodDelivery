@@ -8,5 +8,6 @@ const { t } = useI18n();
 q-page
 	PageHeader(:header='t("headersName.user")')
 
-	router-view
+	.max-w-xs.mx-auto
+		router-view
 </template>

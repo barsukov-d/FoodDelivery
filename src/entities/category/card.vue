@@ -19,12 +19,9 @@ const currentCategory = computed(() => {
 
 <template lang="pug">
 .q-card.rounded-full.text-primary(
-	:class='{ "bg-primary": currentCategory, "text-white": currentCategory }'
+	:class='{ "bg-primary": currentCategory, "bg-secondary": !currentCategory }'
 )
-	q-item
-		q-item-section
-			h3.text-center.text-lg(
-				@click='() => emit("toCategory", category.id)',
-				:class='{ underline: category.id === activeCategoryNumber }'
-			) {{ category.title }}
+	a.p-3.px-5.block.text-center.text-lg.text-white.cursor-pointer(
+		@click='() => emit("toCategory", category.id)'
+	) {{ category.title }}
 </template>

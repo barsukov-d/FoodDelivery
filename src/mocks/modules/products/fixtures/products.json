@@ -5,7 +5,7 @@
 		"name": "Горячее блюдо 1",
 		"description": "Описание продукта",
 		"price": 400,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["popular", "hot"],
 		"kcal": 100
@@ -16,7 +16,7 @@
 		"name": "Горячее блюдо 2",
 		"description": "Описание продукта",
 		"price": 400,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 150,
 		"baiges": ["hot"],
 		"kcal": 100
@@ -27,7 +27,7 @@
 		"name": "Горячее блюдо 3",
 		"description": "Описание продукта",
 		"price": 300,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -38,7 +38,7 @@
 		"name": "Горячее блюдо 4",
 		"description": "Описание продукта",
 		"price": 150,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -49,7 +49,7 @@
 		"name": "Горячее блюдо 5",
 		"description": "Описание продукта",
 		"price": 130,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new", "popular"],
 		"kcal": 100
@@ -60,7 +60,7 @@
 		"name": "Горячее блюдо 6",
 		"description": "Описание продукта",
 		"price": 900,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -71,7 +71,7 @@
 		"name": "Горячее блюдо 7",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new", "hot", "popular"],
 		"kcal": 100
@@ -82,7 +82,7 @@
 		"name": "Горячее блюдо 8",
 		"description": "Описание продукта",
 		"price": 700,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["hot"],
 		"kcal": 100
@@ -93,7 +93,7 @@
 		"name": "Горячее блюдо 9",
 		"description": "Описание продукта",
 		"price": 200,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["hot"],
 		"kcal": 100
@@ -104,7 +104,7 @@
 		"name": "Напиток 1",
 		"description": "Описание продукта",
 		"price": 150,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["popular"],
 		"kcal": 100
@@ -115,7 +115,7 @@
 		"name": "Напиток 2",
 		"description": "Описание продукта",
 		"price": 230,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["popular"],
 		"kcal": 100
@@ -126,7 +126,7 @@
 		"name": "Напиток 3",
 		"description": "Описание продукта",
 		"price": 550,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -137,7 +137,7 @@
 		"name": "Напиток 4",
 		"description": "Описание продукта",
 		"price": 220,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -148,7 +148,7 @@
 		"name": "Десерт 1",
 		"description": "Описание продукта",
 		"price": 300,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -159,7 +159,7 @@
 		"name": "Десерт 3",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -170,7 +170,7 @@
 		"name": "Десерт 4",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -181,7 +181,7 @@
 		"name": "Десерт 5",
 		"description": "Описание продукта",
 		"price": 330,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -192,7 +192,7 @@
 		"name": "Чай",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -203,7 +203,7 @@
 		"name": "Кофе",
 		"description": "Описание продукта",
 		"price": 200,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["hot", "popular"],
 		"kcal": 100
@@ -214,7 +214,7 @@
 		"name": "Сок",
 		"description": "Описание продукта",
 		"price": 300,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -225,7 +225,7 @@
 		"name": "Коктейль",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": [],
 		"kcal": 100
@@ -236,7 +236,7 @@
 		"name": "Солями",
 		"description": "Описание продукта",
 		"price": 700,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": [],
 		"kcal": 100
@@ -247,7 +247,7 @@
 		"name": "Маргарита",
 		"description": "Описание продукта",
 		"price": 700,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -258,7 +258,7 @@
 		"name": "Неополитанская",
 		"description": "Описание продукта",
 		"price": 790,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": [],
 		"kcal": 100
@@ -269,7 +269,7 @@
 		"name": "4 Сыра",
 		"description": "Описание продукта",
 		"price": 800,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": [],
 		"kcal": 100
@@ -280,7 +280,7 @@
 		"name": "Паста 1",
 		"description": "Описание продукта",
 		"price": 400,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["hot", "popular"],
 		"kcal": 100
@@ -291,7 +291,7 @@
 		"name": "Паста 2",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -302,7 +302,7 @@
 		"name": "Паста 3",
 		"description": "Описание продукта",
 		"price": 600,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -313,7 +313,7 @@
 		"name": "Паста 4",
 		"description": "Описание продукта",
 		"price": 350,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -324,7 +324,7 @@
 		"name": "Паста 5",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -336,7 +336,7 @@
 		"name": "Оливье",
 		"description": "Описание продукта",
 		"price": 180,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -347,7 +347,7 @@
 		"name": "Под шубой",
 		"description": "Описание продукта",
 		"price": 130,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -358,7 +358,7 @@
 		"name": "Греческий",
 		"description": "Описание продукта",
 		"price": 550,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -369,7 +369,7 @@
 		"name": "Еврейский",
 		"description": "Описание продукта",
 		"price": 220,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -380,7 +380,7 @@
 		"name": "Овощной",
 		"description": "Описание продукта",
 		"price": 330,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -391,7 +391,7 @@
 		"name": "С черносливом",
 		"description": "Описание продукта",
 		"price": 150,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -402,7 +402,7 @@
 		"name": "Борщ",
 		"description": "Описание продукта",
 		"price": 400,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -413,7 +413,7 @@
 		"name": "Щи",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -424,7 +424,7 @@
 		"name": "Зеленый борщ",
 		"description": "Описание продукта",
 		"price": 200,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -435,7 +435,7 @@
 		"name": "Гороховый",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -446,7 +446,7 @@
 		"name": "Сырный",
 		"description": "Описание продукта",
 		"price": 300,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -457,7 +457,7 @@
 		"name": "Грибной",
 		"description": "Описание продукта",
 		"price": 200,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -468,7 +468,7 @@
 		"name": "Сэндвич 1",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -479,7 +479,7 @@
 		"name": "Сэндвич 2",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -490,7 +490,7 @@
 		"name": "Сэндвич 3",
 		"description": "Описание продукта",
 		"price": 300,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -501,7 +501,7 @@
 		"name": "Сэндвич 4",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -512,7 +512,7 @@
 		"name": "Сэндвич 5",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -523,7 +523,7 @@
 		"name": "Сэндвич 6",
 		"description": "Описание продукта",
 		"price": 900,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -534,7 +534,7 @@
 		"name": "С угрем",
 		"description": "Описание продукта",
 		"price": 100,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -545,7 +545,7 @@
 		"name": "Филадельфия",
 		"description": "Описание продукта",
 		"price": 500,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
@@ -556,7 +556,7 @@
 		"name": "Калифорния",
 		"description": "Описание продукта",
 		"price": 900,
-		"image": "https://picsum.photos/300/300/?blur",
+		"image": "https://loremflickr.com/300/300/paris,girl/all",
 		"weight": 100,
 		"baiges": ["new"],
 		"kcal": 100
